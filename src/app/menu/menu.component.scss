@@ -1,0 +1,32 @@
+nav {
+  background-color: #f8ff8f;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 10%;
+
+  .text-container {
+    flex: 1;
+    font-weight: bold;
+  }
+
+  .options-container {
+    flex: 3;
+    ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+
+      a {
+        text-decoration: none;
+        color: rgb(75, 75, 75);
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: black;
+      }
+    }
+  }
+}
