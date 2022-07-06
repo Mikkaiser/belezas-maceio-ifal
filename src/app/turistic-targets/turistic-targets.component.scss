@@ -1,0 +1,11 @@
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+
+  item-card-component {
+    width: 50%;
+  }
+}

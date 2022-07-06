@@ -10,6 +10,7 @@ import { TuristicTargetsComponent } from './turistic-targets/turistic-targets.co
 import { CraftworkComponent } from './craftwork/craftwork.component';
 import { MenuComponent } from './menu/menu.component';
 import { TitlePageComponent } from './title-page/title-page.component';
+import { ItemCardComponent } from './item-card/item-card.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,11 @@ import { TitlePageComponent } from './title-page/title-page.component';
     TuristicTargetsComponent,
     CraftworkComponent,
     MenuComponent,
-    TitlePageComponent
+    TitlePageComponent,
+    ItemCardComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
